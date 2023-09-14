@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   LICENSE
   }
   s.authors          = 'The WebRTC project authors'
-  s.source           = { :http => 'https://github.com/jitsi/webrtc/releases/download/v111.0.2/WebRTC.xcframework.zip', :flatten => false }
+  s.source           = { :http => 'https://github.com/daman-talkshoplive/webrtc/releases/download/v111.0.2/WebRTC.xcframework.zip', :flatten => false }
   s.platform         = :ios, '12.0'
   s.vendored_frameworks = 'WebRTC.xcframework'
 end

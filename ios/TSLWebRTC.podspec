@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TSLWebRTC'
-  s.version          = '111.0.2'
+  s.version          = '111.0.3'
   s.summary          = 'Jitsi WebRTC fork'
   s.description      = 'React Native WebRTC'
   s.homepage         = 'https://github.com/daman-talkshoplive/webrtc'
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   LICENSE
   }
   s.authors          = 'The WebRTC project authors'
-  s.source           = { :http => 'https://github.com/daman-talkshoplive/webrtc/releases/download/v111.0.2/WebRTC.xcframework.zip', :flatten => false }
+  s.source           = { :http => 'https://github.com/daman-talkshoplive/webrtc/releases/download/v111.0.3/WebRTC.xcframework.zip', :flatten => false }
   s.platform         = :ios, '12.0'
   s.vendored_frameworks = 'WebRTC.xcframework'
 end
